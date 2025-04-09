@@ -1,6 +1,6 @@
 header{
 text-align: center;
-background-color: greenyellow;
+background-color: rgb(94, 143, 21);
 height: 770px;
 color: white;
 background-image: url(images/pillows1.jpg);
@@ -11,14 +11,16 @@ background-blend-mode: darken;
 height: 900px;
 
 }
+body{
+    overflow-x: hidden;
+}
 #text{
-    background-color: greenyellow;
+    background-color: rgb(94, 143, 21);
     padding: 5px;
 }
 .head {
 
 display: flex;
-
 
 }
 .head h3{
@@ -40,10 +42,11 @@ nav{
 
 }
 .title #contact{
-    border-radius: 20px;
+    border-radius: 5px;
     width: 200px;
     height: 40px;
     border: none;
+    background-color: rgb(187, 185, 185);
 }
 .timeless{
     display: flex;
@@ -74,15 +77,19 @@ nav{
 }
 .garmentIndustry{
     display: flex;
-    padding-left: 400px;
-    gap: 400px;
+    padding-left: 200px;
+    gap: 200px;
 
+}
+.garmentIndustry img{
+    width: 100px;
+    padding-left: 100px;
 }
 
 footer{
     background-color: black;
     color: white;
-    height: 20%;
+    height: 300px;
 }
 .footer{
     display: flex;
@@ -98,22 +105,22 @@ footer{
 #knowMore{
     width: 150px;
     height: 40px;
-    border-radius: 15px;
-    background-color: greenyellow;
+    border-radius: 5px;
+    background-color: rgb(94, 143, 21);
     border: none;
     color: white;
 }
 #contactUs{
     width: 150px;
     height: 40px;
-    border-radius: 15px;
+    border-radius: 5px;
     margin-left: 40px;
     background-color: rgb(182, 178, 178);
     border: none;
     color: white;
 }
 .textbed h5{
-    color: greenyellow;
+    color: rgb(94, 143, 21);
     font-size: medium;
 }
 .warranty{
@@ -153,20 +160,54 @@ height: 450px;
 .quality-text{
     padding-top: 4%;
     font-size: large;
-    padding-left: 200px;
+    padding-left: 100px;
     height: 100px;
 }
 .map{
     background-image: url(images/map.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 400px;
+    padding: 150px;
+    
 }
 .contacts{
     background-color: white;
     border: none;
     width: 400px;
     padding: 20px;
-    margin-left: 40%;
-    margin-top: 100px;
+    margin-left: 10%;
+    border-radius: 10px;
+    
+    
+}
+.sample-products{
+    display: flex;
+}
+.sample-products img{
+    width: 650px;
+    height: 550px;
+    gap: 50px;
+    border-radius: 10px;
+  
+}
+.print-img img{
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+
+}
+.brand-logos img{
+    
+    width: 120px;
+    margin-left: 100px;
+}
+.brand-logos{
+    display: flex;
+    gap: 150px;
+    padding-top: 70px;
+}
+.contacts h6{
+    font-size: 15px;
+    
 }
