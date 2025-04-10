@@ -1,213 +1,434 @@
 header{
-text-align: center;
-background-color: rgb(94, 143, 21);
-height: 770px;
-color: white;
-background-image: url(images/pillows1.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-color: rgba(0,0, 0, 0.5);
-background-blend-mode: darken;
-height: 900px;
-
-}
-body{
-    overflow-x: hidden;
-}
-#text{
+    text-align: center;
     background-color: rgb(94, 143, 21);
-    padding: 5px;
-}
-.head {
-
-display: flex;
-
-}
-.head h3{
-    
-    padding-left: 20px;
-    padding-top: 25px;
-}
-.head nav a{
-text-decoration: none;
-color: rgb(250, 247, 247);
-padding-left: 25%;
-
-
-}
-nav{
-    text-align: center;
-    display: flex;
-    padding: 40px;
-
-}
-.title #contact{
-    border-radius: 5px;
-    width: 200px;
-    height: 40px;
-    border: none;
-    background-color: rgb(187, 185, 185);
-}
-.timeless{
-    display: flex;
-    width: 70%;
-    gap: 50px;
-    justify-content: space-around;
-}
-.values{
-   display: flex; 
-   background-color: rgb(199, 202, 202);
-   width: 100%;
-   padding-left: 300px;
-
-}
-.title{
-    padding-top: 5%;
-    font-size: 30px;
-    justify-content: center;
-    text-align: center;
-    
-    
-}
-.printtechniques{
-    display: flex;
-    gap: 50px;
-    margin-left: 20%;
-
-}
-.garmentIndustry{
-    display: flex;
-    padding-left: 200px;
-    gap: 200px;
-
-}
-.garmentIndustry img{
-    width: 100px;
-    padding-left: 100px;
-}
-
-footer{
-    background-color: black;
+    height: 770px;
     color: white;
-    height: 300px;
-}
-.footer{
-    display: flex;
-    gap: 100px;
-    padding-left: 200px;
-}
-.footer ul{
-    list-style: none;
-}
-.bed img{
-    width: 500px;
-}
-#knowMore{
-    width: 150px;
-    height: 40px;
-    border-radius: 5px;
-    background-color: rgb(94, 143, 21);
-    border: none;
-    color: white;
-}
-#contactUs{
-    width: 150px;
-    height: 40px;
-    border-radius: 5px;
-    margin-left: 40px;
-    background-color: rgb(182, 178, 178);
-    border: none;
-    color: white;
-}
-.textbed h5{
-    color: rgb(94, 143, 21);
-    font-size: medium;
-}
-.warranty{
-    padding-left: 200px;
-}
-.shipping{
-    padding-left: 200px;
-}
-.artistry{
-    padding-left: 200px;
-}
-.printtechniques img{
-    width: 300px;
-    border-radius: 20px;
-    
-}
-.uvScreen img{
-    height: 450px;
-}
-.four-color img{
-height: 450px;
-}
-.techniques-title{
-    text-align: center;
-}
-.tag{
-    text-align: center;
-}
-.quality-box{
-    display: flex;
-    gap: 100px;
-
-}
-.couch{
-    width: 100px;
-}
-.quality-text{
-    padding-top: 4%;
-    font-size: large;
-    padding-left: 100px;
-    height: 100px;
-}
-.map{
-    background-image: url(images/map.jpeg);
+    background-image: url(images/pillows1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
-    padding: 150px;
+    background-color: rgba(0,0, 0, 0.5);
+    background-blend-mode: darken;
+    height: 900px;
     
-}
-.contacts{
-    background-color: white;
-    border: none;
-    width: 400px;
-    padding: 20px;
-    margin-left: 10%;
-    border-radius: 10px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    #text{
+        background-color: rgb(94, 143, 21);
+        padding: 5px;
+    }
+    .head {
     
-    
-}
-.sample-products{
     display: flex;
-}
-.sample-products img{
-    width: 650px;
-    height: 550px;
-    gap: 50px;
-    border-radius: 10px;
-  
-}
-.print-img img{
-    width: 100%;
-    height: 600px;
-    border-radius: 10px;
+    
+    }
+    .head h3{
+        
+        padding-left: 20px;
+        padding-top: 25px;
+    }
+    .head nav a{
+    text-decoration: none;
+    color: rgb(250, 247, 247);
+    padding-left: 25%;
+    
+    
+    }
+    nav{
+        text-align: center;
+        display: flex;
+        padding: 40px;
+    
+    }
+    .title #contact{
+        border-radius: 5px;
+        width: 200px;
+        height: 40px;
+        border: none;
+        background-color: rgb(187, 185, 185);
+    }
+    .timeless{
+        display: flex;
+        width: 70%;
+        gap: 50px;
+        justify-content: space-around;
+    }
+    .values{
+       display: flex; 
+       background-color: rgb(199, 202, 202);
+       width: 100%;
+       padding-left: 300px;
+    
+    }
+    .title{
+        padding-top: 5%;
+        font-size: 30px;
+        justify-content: center;
+        text-align: center;
+        
+        
+    }
+    .printtechniques{
+        display: flex;
+        gap: 50px;
+        margin-left: 20%;
+    
+    }
+    .garmentIndustry{
+        display: flex;
+        padding-left: 200px;
+        gap: 200px;
+    
+    }
+    .garmentIndustry img{
+        width: 100px;
+        padding-left: 100px;
+    }
+    
+    footer{
+        background-color: black;
+        color: white;
+        height: 300px;
+    }
+    .footer{
+        display: flex;
+        gap: 100px;
+        padding-left: 200px;
+    }
+    .footer ul{
+        list-style: none;
+    }
+    .bed img{
+        width: 500px;
+    }
+    #knowMore{
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: rgb(94, 143, 21);
+        border: none;
+        color: white;
+    }
+    #contactUs{
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        margin-left: 40px;
+        background-color: rgb(182, 178, 178);
+        border: none;
+        color: white;
+    }
+    .textbed h5{
+        color: rgb(94, 143, 21);
+        font-size: medium;
+    }
+    .warranty{
+        padding-left: 200px;
+    }
+    .shipping{
+        padding-left: 200px;
+    }
+    .artistry{
+        padding-left: 200px;
+    }
+    .printtechniques img{
+        width: 300px;
+        border-radius: 20px;
+        
+    }
+    .uvScreen img{
+        height: 450px;
+    }
+    .four-color img{
+    height: 450px;
+    }
+    .techniques-title{
+        text-align: center;
+    }
+    .tag{
+        text-align: center;
+    }
+    .quality-box{
+        display: flex;
+        gap: 100px;
+    
+    }
+    .couch{
+        width: 100px;
+    }
+    .quality-text{
+        padding-top: 4%;
+        font-size: large;
+        padding-left: 100px;
+        height: 100px;
+    }
+    .map{
+        background-image: url(images/map.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        padding: 150px;
+        
+    }
+    .contacts{
+        background-color: white;
+        border: none;
+        width: 400px;
+        padding: 20px;
+        margin-left: 10%;
+        border-radius: 10px;
+        
+        
+    }
+    .sample-products{
+        display: flex;
+    }
+    .sample-products img{
+        width: 650px;
+        height: 550px;
+        gap: 50px;
+        border-radius: 10px;
+      
+    }
+    .print-img img{
+        width: 100%;
+        height: 600px;
+        border-radius: 10px;
+    
+    }
+    .brand-logos img{
+        
+        width: 120px;
+        margin-left: 100px;
+    }
+    .brand-logos{
+        display: flex;
+        gap: 150px;
+        padding-top: 70px;
+    }
+    .contacts h6{
+        font-size: 15px;
+        
+    }
+@media screen and(min-width:350px)and (max-width:370px){
 
-}
-.brand-logos img{
-    
-    width: 120px;
-    margin-left: 100px;
-}
-.brand-logos{
-    display: flex;
-    gap: 150px;
-    padding-top: 70px;
-}
-.contacts h6{
-    font-size: 15px;
+    header{
+        text-align: center;
+        background-color: rgb(94, 143, 21);
+        height: 770px;
+        color: white;
+        background-image: url(images/pillows1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgba(0,0, 0, 0.5);
+        background-blend-mode: darken;
+        height: 900px;
+        
+        }
+       
+        #text{
+            background-color: rgb(94, 143, 21);
+            padding: 5px;
+        }
+        .head {
+        
+        display: flex;
+        
+        }
+        .body{
+            overflow-x: scroll;
+        }
+        .head h3{
+            
+            padding-left: 20px;
+            padding-top: 25px;
+        }
+        .head nav a{
+        text-decoration: none;
+        color: rgb(250, 247, 247);
+        padding-left: 25%;
+        
+        
+        }
+        nav{
+            text-align: center;
+            display: flex;
+            padding: 40px;
+        
+        }
+        .title #contact{
+            border-radius: 5px;
+            width: 200px;
+            height: 40px;
+            border: none;
+            background-color: rgb(187, 185, 185);
+        }
+        .timeless{
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            gap: 50px;
+            justify-content: space-around;
+        }
+        .values{
+           display: flex; 
+           background-color: rgb(199, 202, 202);
+           width: 100%;
+           padding-left: 300px;
+        
+        }
+        .title{
+            padding-top: 5%;
+            font-size: 10px;
+            justify-content: center;
+            text-align: center;
+            
+            
+        }
+        
+        .printtechniques{
+            display: flex;
+            gap: 50px;
+            margin-left: 20%;
+        
+        }
+        .garmentIndustry{
+            display: flex;
+            padding-left: 200px;
+            gap: 200px;
+        
+        }
+        .garmentIndustry img{
+            width: 100px;
+            padding-left: 100px;
+        }
+        
+        footer{
+            background-color: black;
+            color: white;
+            height: 300px;
+        }
+        .footer{
+            display: flex;
+            gap: 100px;
+            padding-left: 200px;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .bed img{
+            width: 10%;
+            height: 2%;
+        }
+        #knowMore{
+            width: 150px;
+            height: 40px;
+            border-radius: 5px;
+            background-color: rgb(94, 143, 21);
+            border: none;
+            color: white;
+        }
+        #contactUs{
+            width: 150px;
+            height: 40px;
+            border-radius: 5px;
+            margin-left: 40px;
+            background-color: rgb(182, 178, 178);
+            border: none;
+            color: white;
+        }
+        .textbed h5{
+            color: rgb(94, 143, 21);
+            font-size: medium;
+        }
+        .warranty{
+            padding-left: 200px;
+        }
+        .shipping{
+            padding-left: 200px;
+        }
+        .artistry{
+            padding-left: 200px;
+        }
+        .printtechniques img{
+            width: 300px;
+            border-radius: 20px;
+            
+        }
+        .uvScreen img{
+            height: 450px;
+        }
+        .four-color img{
+        height: 450px;
+        }
+        .techniques-title{
+            text-align: center;
+        }
+        .tag{
+            text-align: center;
+        }
+        .quality-box{
+            display: flex;
+            gap: 100px;
+        
+        }
+        .couch{
+            width: 100px;
+        }
+        .quality-text{
+            padding-top: 4%;
+            font-size: large;
+            padding-left: 100px;
+            height: 100px;
+        }
+        .map{
+            background-image: url(images/map.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 400px;
+            padding: 150px;
+            
+        }
+        .contacts{
+            background-color: white;
+            border: none;
+            width: 400px;
+            padding: 20px;
+            margin-left: 10%;
+            border-radius: 10px;
+            
+            
+        }
+        .sample-products{
+            display: flex;
+        }
+        .sample-products img{
+            width: 650px;
+            height: 550px;
+            gap: 50px;
+            border-radius: 10px;
+          
+        }
+        .print-img img{
+            width: 100%;
+            height: 600px;
+            border-radius: 10px;
+        
+        }
+        .brand-logos img{
+            
+            width: 120px;
+            margin-left: 100px;
+        }
+        .brand-logos{
+            display: flex;
+            gap: 150px;
+            padding-top: 70px;
+        }
+        .contacts h6{
+            font-size: 15px;
+            
+        }
     
 }
